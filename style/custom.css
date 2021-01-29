@@ -1,0 +1,52 @@
+body {
+  min-height: 100vh;
+}
+.box {
+  float: left;
+  width: 600px;
+  height: 600px;
+  border-radius: 130px;
+  position: relative;
+  background-color: #ffdf87;
+  background: 
+  radial-gradient(circle farthest-corner at 33% 106%, #ffdf87 9%, #fec867 16%, #fec260 17%, #fba44a 22%, #f46d3f 30%, #f05741 35%, #e73561 45%, transparent 64%),
+  linear-gradient(160deg, #4965d6 7%, #9237a2 23%, #ad3399 33%, #d52b8b 43%, #d92a7d 63%, transparent 353%)
+}
+.box:before {
+  content: "\f16d";
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  font-size: 504px;
+  color: white;
+  position: absolute;
+  left: 13.25%;
+  top: 8%;
+}
+.sample-logo {
+  width: 600px;
+  float: right;
+}
+.hw {
+  float: left;
+  width: 600px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 48px;
+  color: rgb(86, 10, 119);
+}
+.sample {
+  float: right;
+  width: 600px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 48px;
+  color: rgb(86, 10, 119);
+}
+.clear {
+  clear: both;
+}
+
+
+
